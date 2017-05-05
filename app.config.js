@@ -82,36 +82,36 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
         .state('grid', {
             url: '/grid',
             templateUrl: 'components/grid/gridView.html',
-            controller: 'gridCtrl',
-            service: 'gridSvc'
+            // controller: 'gridCtrl',
+            // service: 'gridSvc'
         })
 
         .state('hideElements', {
             url: '/hideElements',
             templateUrl: 'components/hideElements/hideElementsView.html',
-            controller: 'hideElementsCtrl',
-            service: 'hideElementsSvc'
+            // controller: 'hideElementsCtrl',
+            // service: 'hideElementsSvc'
         })
 
         .state('icons', {
             url: '/icons',
             templateUrl: 'components/icons/iconsView.html',
-            controller: 'iconsCtrl',
-            service: 'iconsSvc'
+            // controller: 'iconsCtrl',
+            // service: 'iconsSvc'
         })
 
         .state('imageGuide', {
             url: '/imageGuide',
             templateUrl: 'components/imageGuide/imageGuideView.html',
-            controller: 'imageGuideCtrl',
-            service: 'imageGuideSvc'
+            // controller: 'imageGuideCtrl',
+            // service: 'imageGuideSvc'
         })
 
         .state('intro', {
             url: '/intro',
-            templateUrl: 'components/intro/introView.html'
-            // controller: 'introCtrl',
-            // service: 'introSvc'
+            templateUrl: 'components/intro/introView.html',
+            controller: 'introCtrl',
+            service: 'introSvc'
         })
 
         .state('links', {

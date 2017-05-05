@@ -20,17 +20,8 @@
 
 <body>
 
-    <div class="sidenav">
-        <button ng-click="dropdownFunc()">Overview</button>
-        <button ng-click="dropdownFunc()">Design</button>
-        <button ng-click="dropdownFunc()">Components</button>
-        <button ng-click="dropdownFunc()">Utility</button>
-        <button ng-click="dropdownFunc()">Core Values & Brand</button>
-        <button ng-click="dropdownFunc()">Partners</button>
-        <button ng-click="dropdownFunc()">Approved Language</button>
-    </div>
-    
 
+    <sidebar-dir></sidebar-dir>
     <ui-view></ui-view>
 
 
@@ -77,7 +68,7 @@
 
 
     <!--Directives-->
-    <!--<script src="shared/chat/chat.directive.js"></script>-->
+    <script src="shared/sidebar/sidebar.directive.js"></script>
 
     <!--Services-->
     <script src="components/animation/animation.service.js"></script>
