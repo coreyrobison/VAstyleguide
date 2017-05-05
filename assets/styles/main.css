@@ -1,0 +1,40 @@
+/*SIDEBAR*/
+/*SIDEBAR*/
+.sidenav {
+    height: 100%; 
+    width: 25%; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border-right: solid;
+    border-right-width: 1px;
+    border-color: #e0e6ed;
+}
+
+/* The navigation menu links */
+.sidenav button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    background-color: #fff;
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #e0e6ed;
+    display: block;
+    transition: 0.3s
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
