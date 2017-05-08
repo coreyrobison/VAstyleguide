@@ -1,38 +1,66 @@
-<!--<div class="sidenav">
-  <button id="dropdown1" class="dropdown-button" ng-click="dropdownFunc()">Overview</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+<div class="sidenav">
+
+  <div class="va-logo">
+    <img src="assets/images/va-logo.svg">
   </div>
-  <button id="dropdown2" ng-click="dropdownFunc()">Design</button>
-  <button id="dropdown3" ng-click="dropdownFunc()">Components</button>
-  <button id="dropdown4" ng-click="dropdownFunc()">Utility</button>
-  <button id="dropdown5" ng-click="dropdownFunc()">Core Values & Brand</button>
-  <button id="dropdown6" ng-click="dropdownFunc()">Partners</button>
-  <button id="dropdown7" ng-click="dropdownFunc()">Approved Language</button>
+
+  <button id="dropdown1" class="accordian" ng-click="dropdownFunc()">Overview <div class="menu-caret"><i class="fa fa-caret-down" aria-hidden="true"></i></div></button>
+  <div id="demoAcc" class="panel-hide">
+    <a ui-sref="intro">Introduction</a>
+    <a ui-sref="codeGuide">Code Guildines</a>
+  </div>
+
+  <button class="accordian" ng-click="dropdownFunc()">Design <div class="menu-caret"><i class="fa fa-caret-down" aria-hidden="true"></i></div></button>
+  <div class="panel-hide">
+    <a ui-sref="colorScheme">Color Scheme</a>
+    <a ui-sref="typography">Typography</a>
+    <a ui-sref="animation">Animation</a>
+    <a ui-sref="borderRadius">Border Radius</a>
+    <a ui-sref="boxShadow">Box Shadow</a>
+    <a ui-sref="layout">Layout</a>
+    <a ui-sref="icons">Icons</a>
+  </div>
+
+  <button class="accordian" ng-click="dropdownFunc()">Components <div class="menu-caret"><i class="fa fa-caret-down" aria-hidden="true"></i></div></button>
+  <div class="panel-hide">
+    <a ui-sref="buttons">Buttons</a>
+    <a ui-sref="forms">Form Elements</a>
+    <a ui-sref="grid">Grid</a>
+    <a ui-sref="links">Links</a>
+    <a ui-sref="lists">Lists</a>
+    <a ui-sref="modals">Modals</a>
+    <a ui-sref="popovers">Popovers</a>
+  </div>
+
+  <button class="accordian" ng-click="dropdownFunc()">Utility <div class="menu-caret"><i class="fa fa-caret-down" aria-hidden="true"></i></div></button>
+  <div class="panel-hide">
+    <a ui-sref="aspectRatio">Aspect Ratio</a>
+    <a ui-sref="centerElements">Center Elements</a>
+    <a ui-sref="hideElements">Hide Elements</a>
+    <a ui-sref="designLayout">Layout</a>
+    <a ui-sref="textManipulation">Text Manipulation</a>
+  </div>
+
+  <button class="accordian" ng-click="dropdownFunc()">Core Values & Brand <div class="menu-caret"><i class="fa fa-caret-down" aria-hidden="true"></i></div></button>
+  <div class="panel-hide">
+    <a ui-sref="ourMission">Our Mission</a>
+    <a ui-sref="brandmarks">Brandmarks</a>
+    <a ui-sref="imageGuidelines">Image Guidelines</a>
+  </div>
+
+  <button class="accordian" ng-click="dropdownFunc()">Partners <div class="menu-caret"><i class="fa fa-caret-down" aria-hidden="true"></i></div></button>
+  <div class="panel-hide">
+    <a ui-sref="partnerLogos">Partners Logos</a>
+    <a ui-sref="partnerLanguage">Partner Language</a>
+    <a ui-sref="partnerPresentationTools">Partner Presentation Tools</a>
+  </div>
+
+  <button class="accordian" ng-click="dropdownFunc()">Approved Language <div class="menu-caret"><i class="fa fa-caret-down" aria-hidden="true"></i></div></button>
+  <div class="panel-hide">
+    <a ui-sref="tone">Veterans Advantage Tone of Voice</a>
+    <a ui-sref="militaryDictionary">Military Dictionary</a>
+    <a ui-sref="testimonials">Testimonials</a>
+  </div>
+
 </div>
 
-
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>-->
-
-
-
-<div class="w3-sidebar w3-bar-block w3-light-grey w3-card-2" style="width:160px;">
-
-  <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
-  Accordion <i class="fa fa-caret-down"></i>
-  </button>
-  <div id="demoAcc" class="w3-hide w3-white w3-card-2">
-    <a href="#" class="w3-bar-item w3-button">Link</a>
-    <a href="#" class="w3-bar-item w3-button">Link</a>
-  </div>
-
-</div>
