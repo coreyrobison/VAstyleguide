@@ -86,3 +86,7 @@ div.panel a {
     display: block;
     padding: 15px 0px 15px 0px;
 }
+
+div.panel a:hover {
+    color: #2e88bc;
+}
